@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment1(Bootstrap)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+  <link type="text/css" rel="stylesheet" href="style.css" >
+</head>
+<body>
+<div class="content">
+<div class="container">
+   
+    <form class="form-horizontal" name="myform" id="myform">
+        <h2><center><b>Registration form</b></center></h2>
+
+    <br>
+    <div class="form-group ">
+        <label class="control-label col-sm-2" for="name">First Name:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="fname" name="fname"  placeholder="First name">
+        </div>
+      </div>
+      <div class="form-group ">
+        <label class="control-label col-sm-2" for="name">Middle Name:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="mname" name="mname"  placeholder="Middle name" >
+        </div>
+      </div>
+      <div class="form-group ">
+        <label class="control-label col-sm-2" for="name">Last Name:</label>
+        <div class="col-sm-9">
+          <input type="text" class="form-control" id="lname" name="lname"  placeholder="Last name" >
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="date">DOB:</label>
+        <div class="col-sm-9">          
+          <input type="date" class="form-control" id="date" placeholder="Ex: 10 Jan 2000" name="date" required>
+        </div>
+    </div>
+    <div class="form-check form-switch">
+      <label class="control-label col-sm-2" for="gender">Gender: </label>
+      <div class="col-sm-9">
+      <label class="form-check-input"><input type="radio" name="gender">Male</label><br>
+      <label class="form-check-input"><input type="radio" name="gender">Female</label><br>
+      <label class="form-check-input"><input type="radio" name="gender">Others</label><br>
+      </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-9">
+      <input type="email" class="form-control" id="email" placeholder="Ex:vk18@gmail.com" name="email" required>
+    </div>
+  </div>
+ 
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pno">Phone Number:</label>
+    <div class="col-sm-9">          
+      <input type="tel" class="form-control" id="pno" placeholder="10 digit mobile Number" name="pno" required>
+    </div>
+  </div>
+
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-9">
+          <input type="password" class="form-control" id="pwd" placeholder="Atleast 6 characters" name="pwd" required>
+        </div>
+    </div>
+    <div class="form-group">
+      <label for="add" class="control-label col-sm-2">Address:</label>
+      <div class="col-sm-9">
+      <textarea class="form-control" rows="5" cols="100" id="add" required  placeholder="Your Current Address"> </textarea>
+      </div>
+     </div>
+    
+     <div class="form-group">
+      <label for="degree" class="control-label col-sm-2">Pursuing Degree:</label>
+      <div class="col-sm-9">
+      <select class="form-control-inline col-sm-3 input-sm" id="degree">
+          <option>Btech</option>
+          <option>Mtech</option>
+          <option>BSC</option>
+          <option>Polytechnic</option>
+          <option>Others</option>
+      </select>
+      </div>
+    </div>
+    
+  <div class="form-group">
+    <label for="special" class="control-label col-sm-2">Sepcialization:</label>
+    <div class="col-sm-9">
+    <select class="form-control-inline col-sm-3 input-sm" id="special">
+        <option>CSE</option>
+        <option>EEE</option>
+        <option>ECE</option>
+        <option>CHE</option>
+        <option>MECH</option>
+        <option>OTHERS</option>
+    </select>    </div>
+   </div>
+  
+
+
+    
+
+    
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="lang">MY interests are :</label>
+        <div class="col-sm-9">
+        <label class="checkbox-inline"><input type="checkbox" value="">Coding</label><br>
+        <label class="checkbox-inline"><input type="checkbox" value="">Problem Solving</label><br>
+        <label class="checkbox-inline"><input type="checkbox" value="">Playing Cricket</label><br>
+        <label class="checkbox-inline"><input type="checkbox" value="">Playing Football</label><br>
+        <label class="checkbox-inline"><input type="checkbox" value="">Reading Books</label><br>
+        <label class="checkbox-inline"><input type="checkbox" value="">Learning New Programming Languages</label><br>
+
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <center><input class="btn btn-success"  type="submit" value="Submit" class="submit"></center>
+        
+      </div>
+    </div><br><br>
+  </form>
+  
+</div>
+
+</div>
+</body>
+</html>
